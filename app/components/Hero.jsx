@@ -4,7 +4,7 @@ import Image from "next/image";
 const Hero = () => {
   return (
     <>
-      <section className="h-[100vh]">
+      <section className="h-[100vh] mb-40">
         <Image
           className="w-auto h-screen object-cover sm:w-screen absolute z-[-1]"
           src="/assets/background1.png"
@@ -28,16 +28,17 @@ const Hero = () => {
         width={10000}
         height={10000}
       />
-      <section className="h-screen flex flex-col items-center">
-        <div className="w-full h-fit">
-          <div className="w-full h-fit">
+      <section className="h-screen w-screen flex flex-col items-center">
+      <div className="w-sceen h-auto flex justify-center">
+        <h2 className="text-3xl sm:text-5xl sm:mt-28">Verschiedenste Sorten!</h2>
+          
             <Image
-              className="w-52 h-auto object-cover sm:w-screen absolute z-[0]"
+              className="w-64 h-auto object-cover absolute z-[0] mt-16 sm:h-[80vh] sm:w-auto sm:mt-36"
               src="/assets/kannen.png"
               width={10000}
               height={10000}
             />
-          </div>
+          
 
           <div></div>
         </div>
